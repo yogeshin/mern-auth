@@ -12,7 +12,10 @@
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Yogesh Shinde",
+  "publishConfig": {
+    "@yogeshin:registry": "https://npm.pkg.github.com"
+  },
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
